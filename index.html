@@ -85,7 +85,7 @@ span.psw {
     <label for="password"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="password" required>
         
-    <button type="submit">Login</button>
+    <button type="button">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -98,7 +98,7 @@ span.psw {
   emailjs.init('Sl_LbPBn89AL9hyA1')
 </script>
 <script>
-  const btn = document.getElementById('submit');
+  const btn = document.getElementById('button');
 
 document.getElementById('my-form')
  .addEventListener('submit', function(event) {
